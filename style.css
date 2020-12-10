@@ -1,0 +1,129 @@
+.index__btn,
+.end__btn {
+    margin: 20px 0px !important;
+}
+
+.index__btn a {
+    width: 300px !important;
+    padding: 10px !important;
+    font-size: 24px;
+}
+
+.play,
+.game {
+    height: 100vh !important;
+}
+
+.play-inner {
+    margin-top: 10px;
+    height: 60vh;
+    background-image: url("https://wallpaperaccess.com/full/2384073.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20%;
+}
+
+.index__text {
+    position: absolute;
+    top: 60%;
+    left: 37.5%;
+}
+
+.end__text {
+    height: 100vh !important;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.qstn__header {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.game__head {
+    background-color: rgb(24, 23, 23);
+    padding: 20px;
+    color: cornsilk;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-shadow: 2px 3px black; */
+}
+
+.qstn__next {
+    margin-top: 30px;
+    /* background-color: aqua; */
+    height: 50px;
+}
+
+.qstn__next button {
+    height: 50px;
+}
+
+#submit {
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 35%;
+    padding: 10px;
+}
+
+.opt_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opt {
+    padding: 20px !important;
+    font-size: 18px !important;
+    margin-bottom: 15px !important;
+    background-color: darkcyan;
+    color: white;
+    white-space: normal !important;
+    max-width: 300px;
+    width: 200px;
+}
+
+.qstn__name {
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    text-align: center;
+    box-shadow: 2px 3px grey;
+}
+
+.qstn__options {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#qstn_name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 490px) {
+    .opt {
+        padding: 10px !important;
+        width: 75%;
+        font-size: large !important;
+    }
+    .opt_row {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+    .index__text,
+    .end__text {
+        height: 100vh !important;
+        position: absolute;
+        top: 35%;
+        left: 20%;
+    }
+    .index__btn a {
+        width: 200px !important;
+        padding: 5px !important;
+        font-size: 18px;
+    }
+}

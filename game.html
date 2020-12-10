@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Trivia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container bg-info game">
+        <header class="text-center game__head">
+            <h3>Game Started!!</h3>
+        </header>
+        <div class="game_body">
+            <div class="qstn">
+                <div class="qstn__header">
+                    <div class="qstn__number">
+                        <h3>Question</h3>
+                        <h3 id="qstn_num"></h3>
+                    </div>
+                    <div class="score">
+                        <span><h3>Score</h3>
+                        <h3 id="game_score">0</h3></span>
+                    </div>
+                </div>
+                <div class="qstn__body p-3">
+                    <div class="qstn__name">
+                        <h3 id="qstn_name"></h3>
+                    </div>
+                    <div class="qstn__options text-center" id="qstn_options">
+                    </div>
+                    <div class="qstn__next text-center">
+                        <button class="btn btn-primary" id="next" onclick="next()">Save & Next <i class="fas fa-arrow-right"></i></button>
+                        <a href="end.html" id="submit" class="btn btn-success">Submit Score</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
